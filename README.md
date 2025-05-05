@@ -22,26 +22,6 @@ This project utilizes LangChain, FAISS, and HuggingFace embeddings to build a po
 - **Advanced RAG-based Question Answering**: Leverages RAG techniques to perform efficient retrieval and provide context-aware answers directly from the document content.
 - **Conversational Chain**: Uses LangChain's prompt-based question-answering with the Ollama model for natural, detailed responses.
 
-## Installation
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/pdf-question-answering.git
-   cd pdf-question-answering
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   pip install gradio langchain PyPDF2 faiss-cpu transformers
-   ```
-
-3. **Run the Application**
-   ```bash
-   python app.py
-   ```
-
-## Project Structure
-- **app.py**: Main file containing the Gradio interfaces for PDF processing and question answering.
-- **README.md**: Project documentation.
 
 ## How It Works
 1. **PDF Processing**:
